@@ -1,0 +1,75 @@
+--- TSVD Regression Summary for Log(k1, min-1) ph4 (Initial) ---
+sigma_threshold: 3.00
+t_threshold: 2.50
+Pearson's r: 0.9938
+R-squared: 0.9877
+F-statistic: 107.12
+RMSE: 0.0556
+Residual SD: 0.0556
+Significant Features:
+Intercept, p5.CB1CB2CB2CB2CB1.4444, p5.CB1CB1CB2CB2CB2.4444, p5.CB1CB1CB1CB2CB1.4444, p7.CB1CB2CB1CB1CB2CB2CB2.444444, p7._____________________.114412, p7.CB1CB2ND2ND2CB2CB2CB2.412144, p7.CB2CB2ND2ND2CB2CB2OA1.412141, p9.CB2CB1CB1CB2ND2ND2CB2CB2CB2.44412144, s4.CB2CB1CB2ND2.441
+Coefficients:
+-2.3752148012062606, -0.15162769633230325, 0.25249877633176737, -0.06883935987543088, -0.2321363707351644, -0.0944402813651371, 0.13937837086984353, 0.09121041479617827, -0.08044037903595636, -0.22941787112817819
+t-values:
+42.8908002583255, 6.632566316653442, 18.540214400370274, 3.4913324684754263, 7.990082926575701, 7.46772833514871, 6.686828191439324, 5.376838675389204, 3.604140899606014, 8.446875215030877
+
+--- Results Table ---
+Name,Observed_Property,Predicted_Property,Intercept,p5.CB1CB2CB2CB2CB1.4444,p5.CB1CB1CB2CB2CB2.4444,p5.CB1CB1CB1CB2CB1.4444,p7.CB1CB2CB1CB1CB2CB2CB2.444444,p7._____________________.114412,p7.CB1CB2ND2ND2CB2CB2CB2.412144,p7.CB2CB2ND2ND2CB2CB2OA1.412141,p9.CB2CB1CB1CB2ND2ND2CB2CB2CB2.44412144,s4.CB2CB1CB2ND2.441
+Bismarck Brown Y,-3.0,-2.971729263213479,1.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,2.0
+Congo Red,-1.88606,-1.8786972661959513,1.0,4.0,6.0,0.0,0.0,2.0,4.0,0.0,4.0,2.0
+Acid Red 73,-2.48149,-2.527238394851728,1.0,2.0,3.0,2.0,1.0,5.0,4.0,0.0,4.0,0.0
+Naphthol Blue Black,-2.17393,-2.1162607955496613,1.0,0.0,0.0,2.0,0.0,0.0,4.0,0.0,2.0,0.0
+Ponceau S,-2.52288,-2.5640644310041574,1.0,0.0,1.0,0.0,1.0,2.0,2.0,1.0,2.0,1.0
+Chrysoidine,-2.72125,-2.7423113920853006,1.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0
+Gold Orange,-2.4318,-2.3752148012062606,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Orange IV,-2.74473,-2.745012522073121,1.0,0.0,0.0,4.0,0.0,1.0,0.0,0.0,0.0,0.0
+Mordant Black 11,-2.04576,-1.9772023391992462,1.0,3.0,6.0,1.0,3.0,0.0,1.0,3.0,1.0,1.0
+Mordant Black 17,-1.0,-0.9987405273066811,1.0,3.0,7.0,1.0,1.0,0.0,0.0,4.0,0.0,0.0
+Acid Orange 7,-1.72125,-1.6999471391543153,1.0,1.0,4.0,1.0,1.0,0.0,2.0,0.0,2.0,0.0
+Acid Orange 20,-1.76955,-1.7800169760042015,1.0,2.0,4.0,0.0,0.0,0.0,2.0,0.0,2.0,1.0
+Calcon carboxylic Acid,-1.22915,-1.214414294267885,1.0,2.0,5.0,1.0,0.0,1.0,0.0,4.0,0.0,0.0
+Chlorophosphonazo III,-2.63827,-2.533753730202486,1.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,2.0,2.0
+Brilliant Red SSKH,-2.72125,-2.726272734612316,1.0,2.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0
+Fast Fuchsine G,-2.52288,-2.537392171882042,1.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0
+Acid Chrome Blue K,-2.50864,-2.5893187311058043,1.0,2.0,0.0,0.0,0.0,1.0,1.0,3.0,0.0,1.0
+Amaranthe,-1.67778,-1.7628844369765573,1.0,2.0,5.0,0.0,1.0,1.0,2.0,1.0,2.0,1.0
+Bordeaux Red,-1.88606,-1.9921811749872738,1.0,2.0,4.0,2.0,1.0,1.0,2.0,1.0,0.0,1.0
+Acid Red 26,-1.88606,-1.9646265969754857,1.0,0.0,3.0,0.0,1.0,1.0,2.0,1.0,2.0,1.0
+Acid Orange 10,-2.25964,-2.205476878707903,1.0,2.0,3.0,2.0,1.0,5.0,4.0,0.0,0.0,0.0
+Ponceau 4R,-2.01323,-1.9389034024381775,1.0,4.0,7.0,0.0,1.0,5.0,2.0,1.0,2.0,1.0
+
+--- Feature Statistics ---
+Feature,Coefficient,t-value,Non-zero Counts,Sum of Counts,Average Count,Composition (Coefficient * Average Count),Names with Non-zero Counts
+p5.CB1CB2CB2CB2CB1.4444,-0.1516,6.6326,14,33.0000,2.3571,-0.3574,Congo Red, Acid Red 73, Mordant Black 11, Mordant Black 17, Acid Orange 7, Acid Orange 20, Calcon carboxylic Acid, Brilliant Red SSKH, Fast Fuchsine G, Acid Chrome Blue K, Amaranthe, Bordeaux Red, Acid Orange 10, Ponceau 4R
+p5.CB1CB1CB2CB2CB2.4444,0.2525,18.5402,13,58.0000,4.4615,1.1265,Congo Red, Acid Red 73, Ponceau S, Mordant Black 11, Mordant Black 17, Acid Orange 7, Acid Orange 20, Calcon carboxylic Acid, Amaranthe, Bordeaux Red, Acid Red 26, Acid Orange 10, Ponceau 4R
+p5.CB1CB1CB1CB2CB1.4444,-0.0688,3.4913,13,24.0000,1.8462,-0.1271,Bismarck Brown Y, Acid Red 73, Naphthol Blue Black, Chrysoidine, Orange IV, Mordant Black 11, Mordant Black 17, Acid Orange 7, Calcon carboxylic Acid, Brilliant Red SSKH, Fast Fuchsine G, Bordeaux Red, Acid Orange 10
+p7.CB1CB2CB1CB1CB2CB2CB2.444444,-0.2321,7.9901,10,12.0000,1.2000,-0.2786,Acid Red 73, Ponceau S, Mordant Black 11, Mordant Black 17, Acid Orange 7, Amaranthe, Bordeaux Red, Acid Red 26, Acid Orange 10, Ponceau 4R
+p7._____________________.114412,-0.0944,7.4677,12,27.0000,2.2500,-0.2125,Congo Red, Acid Red 73, Ponceau S, Orange IV, Calcon carboxylic Acid, Brilliant Red SSKH, Acid Chrome Blue K, Amaranthe, Bordeaux Red, Acid Red 26, Acid Orange 10, Ponceau 4R
+p7.CB1CB2ND2ND2CB2CB2CB2.412144,0.1394,6.6868,16,38.0000,2.3750,0.3310,Congo Red, Acid Red 73, Naphthol Blue Black, Ponceau S, Mordant Black 11, Acid Orange 7, Acid Orange 20, Chlorophosphonazo III, Brilliant Red SSKH, Fast Fuchsine G, Acid Chrome Blue K, Amaranthe, Bordeaux Red, Acid Red 26, Acid Orange 10, Ponceau 4R
+p7.CB2CB2ND2ND2CB2CB2OA1.412141,0.0912,5.3768,10,21.0000,2.1000,0.1915,Ponceau S, Mordant Black 11, Mordant Black 17, Calcon carboxylic Acid, Chlorophosphonazo III, Acid Chrome Blue K, Amaranthe, Bordeaux Red, Acid Red 26, Ponceau 4R
+p9.CB2CB1CB1CB2ND2ND2CB2CB2CB2.44412144,-0.0804,3.6041,11,25.0000,2.2727,-0.1828,Congo Red, Acid Red 73, Naphthol Blue Black, Ponceau S, Mordant Black 11, Acid Orange 7, Acid Orange 20, Chlorophosphonazo III, Amaranthe, Acid Red 26, Ponceau 4R
+s4.CB2CB1CB2ND2.441,-0.2294,8.4469,12,15.0000,1.2500,-0.2868,Bismarck Brown Y, Congo Red, Ponceau S, Chrysoidine, Mordant Black 11, Acid Orange 20, Chlorophosphonazo III, Acid Chrome Blue K, Amaranthe, Bordeaux Red, Acid Red 26, Ponceau 4R
+
+--- Occurrences Table ---
+Name,Occurrence
+Acid Chrome Blue K,5
+Acid Orange 10,6
+Acid Orange 20,5
+Acid Orange 7,6
+Acid Red 26,7
+Acid Red 73,7
+Amaranthe,8
+Bismarck Brown Y,2
+Bordeaux Red,8
+Brilliant Red SSKH,4
+Calcon carboxylic Acid,5
+Chlorophosphonazo III,4
+Chrysoidine,2
+Congo Red,6
+Fast Fuchsine G,3
+Mordant Black 11,8
+Mordant Black 17,5
+Naphthol Blue Black,3
+Orange IV,2
+Ponceau 4R,8
+Ponceau S,7
